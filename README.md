@@ -8,8 +8,8 @@
 ## Contacto
 
 - Email: [fierrodilorenzo@gmail.com](mailto:fierrodilorenzo@gmail.com)
-- Grupo whatsapp: [Link]()
-<!-- - Link de Zoom: [Link](https://ortuy.zoom.us/j/93399351782?pwd=bE9uM0pRbmVyTnRUUjludmhmQlZVUT09) -->
+- Grupo whatsapp: [Link](https://chat.whatsapp.com/GC2qiHTsR4C0Cdalh6CPzt)
+- Link de Zoom: [Link](https://ortuy.zoom.us/j/5468966683?pwd=UitQOEtXZ3lxY1JjNE5sSnhXTXZmdz09)
 
 ---
 
