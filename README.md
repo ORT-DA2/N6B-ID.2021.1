@@ -37,14 +37,15 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 ## Clases
 
 1. [Comandos .Net Core](/Clases/ComandosNetCore.md)
+2. [Introducción a Web API](/Clases/APIsREST.md)
 
-## Deploy
+<!-- ## Deploy
 
 - [WebAPI](https://aulas.ort.edu.uy/mod/resource/view.php?id=186907)
-- [Aplicación Angular](https://aulas.ort.edu.uy/mod/resource/view.php?id=190255)
+- [Aplicación Angular](https://aulas.ort.edu.uy/mod/resource/view.php?id=190255) -->
 
 ---
 
-## Docentes
+## Docente
 
-- Nicolás Fierro
+- :space_invader: Nicolás Fierro
