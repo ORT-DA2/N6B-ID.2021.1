@@ -39,6 +39,8 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 1. [Comandos .Net Core](/Clases/ComandosNetCore.md)
 2. [Introducción a Web API](/Clases/APIsREST.md)
 3. [Estructura de una request/response](Clases/Request-Response-API-example.pdf)
+4. [Inyección de dependencias](/Clases/InyeccionDependencias.md)
+5. [Ejemplo de Web API e inyección de dependencias](/Ejemplos/WebAPI/Uyflix)
 <!-- ## Deploy
 
 - [WebAPI](https://aulas.ort.edu.uy/mod/resource/view.php?id=186907)
