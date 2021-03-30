@@ -41,6 +41,7 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 3. [Estructura de una request/response](Clases/Request-Response-API-example.pdf)
 4. [Inyección de dependencias](/Clases/InyeccionDependencias.md)
 5. [Ejemplo de Web API e inyección de dependencias](/Ejemplos/WebAPI/Uyflix)
+6. [Introducción a mocking](/Clases/Mocking.md)
 <!-- ## Deploy
 
 - [WebAPI](https://aulas.ort.edu.uy/mod/resource/view.php?id=186907)
