@@ -66,7 +66,6 @@ namespace Uyflix.Webapi.Controllers
             {
                 return StatusCode(500, "Algo salió mal.");
             }
-
         }
 
         [HttpDelete("{id}")]

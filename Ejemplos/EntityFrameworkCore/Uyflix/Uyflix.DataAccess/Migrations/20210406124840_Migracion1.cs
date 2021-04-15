@@ -2,7 +2,7 @@
 
 namespace Uyflix.DataAccess.Migrations
 {
-    public partial class MovieEntity : Migration
+    public partial class Migracion1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

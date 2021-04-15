@@ -8,7 +8,7 @@ namespace Uyflix.DataAccess
         public DbSet<Movie> Movies { get; set; }
         public UyflixContext(DbContextOptions options) : base(options)
         {
-
+            
         }
     }
 }

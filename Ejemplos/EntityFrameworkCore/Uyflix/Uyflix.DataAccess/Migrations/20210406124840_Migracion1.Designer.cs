@@ -9,8 +9,8 @@ using Uyflix.DataAccess;
 namespace Uyflix.DataAccess.Migrations
 {
     [DbContext(typeof(UyflixContext))]
-    [Migration("20210330050102_MovieEntity")]
-    partial class MovieEntity
+    [Migration("20210406124840_Migracion1")]
+    partial class Migracion1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

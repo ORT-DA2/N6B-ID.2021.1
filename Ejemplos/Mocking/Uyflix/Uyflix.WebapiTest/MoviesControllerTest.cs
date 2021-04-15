@@ -36,7 +36,8 @@ namespace Uyflix.WebapiTest
         [TestMethod]
         public void GetMoviesOk()
         {
-            mock.Setup(x => x.GetMovies(iceAge)).Returns(movies);
+            mock.Setup(x => x.GetMovies(It.IsAny<Movie>())).Returns(movies);
+
             var result = api.GetMovies(iceAge);
             var objectResult = result as ObjectResult;
             var statusCode = objectResult.StatusCode;
@@ -48,6 +49,7 @@ namespace Uyflix.WebapiTest
         public void GetMoviesFail()
         {
             mock.Setup(x => x.GetMovies(null)).Throws(new Exception());
+
             var result = api.GetMovies(null);
             var objectResult = result as ObjectResult;
             var statusCode = objectResult.StatusCode;
