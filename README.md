@@ -40,11 +40,16 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 2. [Introducción a Web API](/Clases/APIsREST.md)
 3. [Estructura de una request/response](Clases/Request-Response-API-example.pdf)
 4. [Inyección de dependencias](/Clases/InyeccionDependencias.md)
-5. [Ejemplo de Web API e inyección de dependencias](/Ejemplos/WebAPI)
-6. [Introducción a mocking](/Clases/Mocking.md)
-7. [Ejemplo de mocking](/Ejemplos/Mocking)
-8. [Guia Entity Framework Core](/Clases/EntityFrameworkCore.md)
-9. [Ejemplo Entity Framework Core](/Ejemplos/EntityFrameworkCore)
+5. [Introducción a mocking](/Clases/Mocking.md)
+6. [Guia Entity Framework Core](/Clases/EntityFrameworkCore.md)
+7. [Filters](/Clases/Filters.md)
+
+## Ejemplos
+
+1. [Ejemplo de Web API e inyección de dependencias](/Ejemplos/WebAPI)
+2. [Ejemplo de mocking](/Ejemplos/Mocking)
+3. [Ejemplo Entity Framework Core](/Ejemplos/EntityFrameworkCore)
+4. [Ejemplo filters](/Ejemplos/EjemploFilters)
 
 <!-- ## Deploy
 
