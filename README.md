@@ -43,6 +43,7 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 5. [Introducción a mocking](/Clases/Mocking.md)
 6. [Guia Entity Framework Core](/Clases/EntityFrameworkCore.md)
 7. [Filters](/Clases/Filters.md)
+8. [Reflection](/Clases/Reflection.md)
 
 ## Ejemplos
 
@@ -50,6 +51,7 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 2. [Ejemplo de mocking](/Ejemplos/Mocking)
 3. [Ejemplo Entity Framework Core](/Ejemplos/EntityFrameworkCore)
 4. [Ejemplo filters](/Ejemplos/EjemploFilters)
+5. [Ejemplos Reflection](/Ejemplos/Reflection)
 
 <!-- ## Deploy
 
