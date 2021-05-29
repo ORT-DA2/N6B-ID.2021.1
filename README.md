@@ -44,6 +44,7 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 6. [Guia Entity Framework Core](/Clases/EntityFrameworkCore.md)
 7. [Filters](/Clases/Filters.md)
 8. [Reflection](/Clases/Reflection.md)
+9. [Angular](/Clases/Angular.md)
 
 ## Ejemplos
 
@@ -52,6 +53,7 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 3. [Ejemplo Entity Framework Core](/Ejemplos/EntityFrameworkCore)
 4. [Ejemplo filters](/Ejemplos/EjemploFilters)
 5. [Ejemplos Reflection](/Ejemplos/Reflection)
+6. [Ejemplo Angular](/Ejemplos/Angular)
 
 <!-- ## Deploy
 

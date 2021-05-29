@@ -1,0 +1,14 @@
+<h2>Productos</h2>
+<input [(ngModel)]="filterValue" placeholder="Filtrar por" />
+<p>
+  Productos filtrados por <b>{{ filterValue | lowercase }}</b>
+</p>
+<div class="list">
+  <app-product-row
+    *ngFor="let product of products | filterProducts: filterValue"
+    [productt]="product"
+    (delete)="deleteProduct($event)"
+    (click)="goToDetail()"
+  >
+  </app-product-row>
+</div>
