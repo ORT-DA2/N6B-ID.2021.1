@@ -3,12 +3,13 @@
 <p>
   Productos filtrados por <b>{{ filterValue | lowercase }}</b>
 </p>
+<div class="button" (click)="addProduct()">AGREGAR PRODUCTO</div>
 <div class="list">
   <app-product-row
-    *ngFor="let product of products | filterProducts: filterValue"
-    [productt]="product"
+    *ngFor="let product of products | filter: filterValue"
+    [product]="product"
     (delete)="deleteProduct($event)"
-    (click)="goToDetail()"
+    (click)="onProductClick(product)"
   >
   </app-product-row>
 </div>

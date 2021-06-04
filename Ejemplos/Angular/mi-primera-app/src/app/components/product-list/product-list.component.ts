@@ -1,28 +1,46 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
-import { ProductServicesService } from 'src/app/services/product-services.service';
+import { Component, OnInit } from '@angular/core';
+import { ProductService } from '../../services/product.service';
 import { Product } from '../../../models/product';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
   styleUrls: ['./product-list.component.css'],
 })
-export class ProductListComponent {
-  constructor(private productService: ProductServicesService, private router: Router) {
-    this.products = this.productService.getProducts();
-    this.filterValue = "";
+export class ProductListComponent implements OnInit {
+  constructor(private productService: ProductService, private router: Router) {
+    this.filterValue = '';
   }
 
-  products: Product[];
-  filterValue: string;
+  ngOnInit(): void {
+    this.productService.getProducts().subscribe(
+      (res) => {
+        this.products = res;
+      },
+      (err) => {
+        alert('Algo salió mal...');
+      }
+    );
+  }
+
+  products;
+  filterValue: string = '';
 
   deleteProduct(product: Product) {
-    this.productService.deleteProduct(product);
+    this.productService.deleteProduct(product).subscribe(
+      (res) => {},
+      (err) => {
+        alert('Algo salió mal...');
+      }
+    );
   }
 
-  goToDetail() {
-    this.router.navigateByUrl('/products')
+  onProductClick(product: Product) {
+    this.router.navigate(['/product', product.id]);
   }
 
+  addProduct() {
+    this.router.navigateByUrl('/product/add');
+  }
 }

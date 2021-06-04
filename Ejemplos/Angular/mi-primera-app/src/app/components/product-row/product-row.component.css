@@ -9,4 +9,5 @@
 .card:hover {
   background-color: #C6DEC6;
   border-color: #A9C5A0;
+  cursor: pointer;
 }
