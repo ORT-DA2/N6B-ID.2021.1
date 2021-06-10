@@ -15,11 +15,9 @@ export class ProductAddComponent {
   productForm = new FormGroup({
     name: new FormControl(''),
     cost: new FormControl(0),
-    option: new FormControl('1'),
   });
 
   createProduct() {
-    alert(`Usted selecciono la opción: ${this.productForm.value.option}`)
     const product = new Product(
       this.productForm.value.name,
       this.productForm.value.cost as number

@@ -14,11 +14,13 @@ export class ProductListComponent implements OnInit {
   }
 
   ngOnInit(): void {
+
     this.productService.getProducts().subscribe(
       (res) => {
         this.products = res;
       },
       (err) => {
+        console.log(err);
         alert('Algo salió mal...');
       }
     );
